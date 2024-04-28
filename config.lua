@@ -39,6 +39,7 @@ Config.Elevators = {
             },
             groups = {-- Job locks
                 'police',
+                'sheriff',
                 'ambulance'
             },
         },
