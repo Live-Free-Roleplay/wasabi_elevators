@@ -58,9 +58,10 @@ AddEventHandler('wasabi_elevator:goToFloor', function(data)
 	while not HasCollisionLoadedAroundEntity(ped) do
 		Wait()
 	end
+    Wait(3000)
+    print(GetPlayerServerId(NetworkGetPlayerIndexFromPed(GetEntityAttachedTo(PlayerPedId()))))
 	SetEntityCoords(ped, coords.x, coords.y, coords.z, false, false, false, false)
 	SetEntityHeading(ped, heading and heading or 0.0)
-	Wait(3000)
 	DoScreenFadeIn(1500)
 end)
 

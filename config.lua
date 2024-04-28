@@ -9,8 +9,8 @@ Config.checkForUpdates = true -- Check for Updates?
 Config.Elevators = {
     PillboxElevatorNorth = { -- Elevator name(Doesn't show it's just to name table)
         [1] = {
-            coords = vec3(332.37, -595.56, 43.28), -- Coords, if you're new; last number is heading
-            heading = 70.65, -- Heading of how will spawn on floor
+            coords = vec3(331.7788, -595.3736, 43.2838-0.5), -- Coords, if you're new; last number is heading
+            heading = 71.4922, -- Heading of how will spawn on floor
             title = 'Level 3', -- Title 
             description = 'Main Floor', -- Description
             target = { -- Target length/width
@@ -19,8 +19,8 @@ Config.Elevators = {
             },
         },
         [2] = {
-            coords = vec3(344.31, -586.12, 28.79), -- Coords, if you're new; last number is heading
-            heading = 252.84,
+            coords = vec3(345.0157, -586.3049, 28.7968), -- Coords, if you're new; last number is heading
+            heading = 245.2862,
             title = 'Level 1',
             description = 'Lower Floor',
             target = {
@@ -29,8 +29,8 @@ Config.Elevators = {
             } -- Example without group
         },
         [3] = {
-            coords = vec3(338.5558, -583.7470, 74.1618), -- Coords, if you're new; last number is heading
-            heading = 82.5404, -- Heading of how will spawn on floor
+            coords = vec3(339.1342, -583.9865, 74.1617-0.5), -- Coords, if you're new; last number is heading
+            heading = 245.5572, -- Heading of how will spawn on floor
             title = 'Roof', -- Title 
             description = 'Helipad', -- Description
             target = { -- Target length/width
